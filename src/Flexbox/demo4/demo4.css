@@ -1,0 +1,53 @@
+.container {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  margin-bottom: 32px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.AA {
+  background-color: #037aff;
+}
+.BB {
+  background-color: #5bc9fb;
+}
+.CC {
+  background-color: #4cd863;
+}
+.DD {
+  background-color: #ffcc02;
+}
+
+.EE {
+  background-color: #ff0051;
+}
+.FF {
+  background-color: #5352eb;
+}
+.GG {
+  background-color: #fe8e00;
+}
+
+.flex-start {
+  align-content: flex-start;
+}
+.flex-end {
+  align-content: flex-end;
+}
+.center {
+  align-content: center;
+}
+.space-between {
+  align-content: space-between;
+}
+.space-around {
+  align-content: space-around;
+}

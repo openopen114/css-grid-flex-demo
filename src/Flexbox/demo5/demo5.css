@@ -1,0 +1,44 @@
+.container {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  margin-bottom: 32px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.AA {
+  order: -2;
+  background-color: #037aff;
+}
+.BB {
+  order: 1;
+  background-color: #5bc9fb;
+}
+.CC {
+  order: 1;
+  background-color: #4cd863;
+}
+.DD {
+  order: -1;
+  background-color: #ffcc02;
+}
+
+.EE {
+  order: 2;
+  background-color: #ff0051;
+}
+.FF {
+  order: 3;
+  background-color: #5352eb;
+}
+.GG {
+  order: -3;
+  background-color: #fe8e00;
+}
