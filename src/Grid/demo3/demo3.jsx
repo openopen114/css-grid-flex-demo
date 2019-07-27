@@ -7,8 +7,8 @@ export default class GridDemo3 extends Component {
       <div className="container">
         <div className="AA">AA 1/2</div>
         <div className="BB">BB 2/3</div>
-        <div className="CC">CC 3/4</div>
-        <div className="DD">DD 4/７</div>
+        <div className="CC">CC 3/7</div>
+        <div className="DD">DD 4/7</div>
       </div>
     );
   }
