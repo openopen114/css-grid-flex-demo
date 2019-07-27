@@ -4,7 +4,8 @@ import React, { Fragment } from "react";
 // import GridDemo3 from "./Grid/demo3/demo3";
 
 // import FlexboxDemo1 from "./Flexbox/demo1/demo1";
-import FlexboxDemo2 from "./Flexbox/demo2/demo2";
+// import FlexboxDemo2 from "./Flexbox/demo2/demo2";
+import FlexboxDemo3 from "./Flexbox/demo3/demo3";
 
 import "./App.css";
 
@@ -15,7 +16,8 @@ function App() {
       {/* <GridDemo2 /> */}
       {/* <GridDemo3 /> */}
       {/* <FlexboxDemo1 /> */}
-      <FlexboxDemo2 />
+      {/* <FlexboxDemo2 /> */}
+      <FlexboxDemo3 />
     </Fragment>
   );
 }

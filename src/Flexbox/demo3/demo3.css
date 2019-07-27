@@ -1,0 +1,41 @@
+.container {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  margin-bottom: 32px;
+
+  display: flex;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.AA {
+  background-color: #037aff;
+}
+.BB {
+  background-color: #5bc9fb;
+}
+.CC {
+  background-color: #4cd863;
+}
+.DD {
+  background-color: #ffcc02;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+.flex-end {
+  align-items: flex-end;
+}
+.center {
+  align-items: center;
+}
+
+.self-end .BB {
+  align-self: flex-end;
+}
+/* align-self:baseline; */
