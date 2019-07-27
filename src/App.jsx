@@ -1,4 +1,7 @@
 import React, { Fragment } from "react";
+
+import Topic from "./Topic/topic";
+
 // import GridDemo1 from "./Grid/demo1/demo1";
 // import GridDemo2 from "./Grid/demo2/demo2";
 // import GridDemo3 from "./Grid/demo3/demo3";
@@ -15,6 +18,7 @@ import "./App.css";
 function App() {
   return (
     <Fragment>
+      <Topic />
       {/* <GridDemo1 /> */}
       {/* <GridDemo2 /> */}
       {/* <GridDemo3 /> */}
@@ -23,7 +27,7 @@ function App() {
       {/* <FlexboxDemo3 /> */}
       {/* <FlexboxDemo4 /> */}
       {/* <FlexboxDemo5 /> */}
-      <FlexboxDemo6 />
+      {/* <FlexboxDemo6 /> */}
     </Fragment>
   );
 }

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC|Roboto+Mono:300&display=swap");
+
+.bg {
+  width: 100%;
+  height: auto;
+  background-color: #262e4a;
+
+  display: flex;
+  justify-content: center;
+}
+
+.topic-container {
+  width: 75%;
+  padding: 8px;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+
+  .title {
+    color: #fff;
+    width: 100%;
+    height: 120px;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .topic {
+    width: 100%;
+    height: 100px;
+    background-color: #424d76;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    color: #fff;
+    font-size: 22px;
+
+    .index {
+      grid-column: 1/2;
+      @extend .flex-center;
+      .index-num-box {
+        width: 60px;
+        height: 60px;
+        @extend .flex-center;
+        border-radius: 10px;
+        background-color: #4c4bd7;
+        font-family: "Montserrat", sans-serif;
+
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      }
+    }
+
+    .desc {
+      display: flex;
+      align-items: center;
+      grid-column: 2/4;
+      font-family: "Noto Sans TC", sans-serif;
+      font-size: x-large;
+      letter-spacing: 2px;
+    }
+    .css-attribute {
+      display: flex;
+      align-items: center;
+      grid-column: 4/6;
+      font-family: "Roboto Mono", monospace;
+      font-style: oblique;
+    }
+
+    @media screen and (max-width: 600px) {
+      .index {
+        grid-row: 1/3;
+      }
+
+      .desc {
+        grid-row: 1/2;
+        grid-column: 2/5;
+        font-size: large;
+        align-items: flex-end;
+      }
+      .css-attribute {
+        grid-row: 2/3;
+        grid-column: 2/5;
+        font-size: medium;
+        align-items: flex-start;
+      }
+    }
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
