@@ -1,0 +1,81 @@
+.container {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  margin-bottom: 32px;
+
+  display: flex;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.AA {
+  background-color: #037aff;
+}
+.BB {
+  background-color: #5bc9fb;
+}
+.CC {
+  background-color: #4cd863;
+}
+.DD {
+  background-color: #ffcc02;
+}
+
+/* flex-basis   */
+/* height or width depend on direction */
+.flex-basis div {
+  flex-basis: 150px;
+}
+
+/* flex-grow  */
+.flex-grow .AA {
+  flex-grow: 0;
+}
+
+.flex-grow .BB {
+  flex-grow: 1;
+}
+
+.flex-grow .CC {
+  flex-grow: 2;
+}
+
+/* flex-shrink */
+.flex-shrink div {
+  width: 200px;
+}
+.flex-shrink .AA {
+  flex-shrink: 0;
+}
+
+.flex-shrink .BB {
+  flex-shrink: 1;
+}
+
+.flex-shrink .CC {
+  flex-shrink: 1;
+}
+
+/*
+
+超出：200 + 200 + 200 - 500 = 100
+
+總和：Σ{item大小x壓縮比}  = 200 x 1 + 200 x 1 = 400
+
+BB 要壓縮長度為 
+
+(item大小x壓縮比) / 總和 x 超出 
+
+= (200 x 1) / 400 x 100 
+
+= 0.5 x 100 = 50
+
+
+詳細計算可參考https://juejin.im/post/5bcaa394f265da0aa3595fac
+ 
+
+*/
