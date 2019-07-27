@@ -1,0 +1,57 @@
+.container {
+  width: 800px;
+  height: 800px;
+  font-size: 50px;
+  color: #fff;
+  /* outline: 2px solid red; */
+
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 25% 25% 25% 25%;
+  /* grid-template-areas:
+    " A1 A1 A1 A1 "
+    " B1 C1 C1 C1 "
+    " B1 C1 C1 C1 "
+    " D1 D1 D1 D1 "; */
+}
+
+.AA {
+  /* grid-area: A1; */
+  grid-row: 1/2; /* 起始線 / 終止線  */
+  grid-column: 1/2; /* 起始線 / 終止線 */
+  background-color: #037aff;
+}
+.BB {
+  /* grid-area: B1; */
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background-color: #5bc9fb;
+}
+.CC {
+  /* grid-area: C1; */
+  grid-row: 3/4;
+  grid-column: 3/4;
+  background-color: #4cd863;
+}
+.DD {
+  /* grid-area: D1; */
+  grid-row: 4/5;
+  grid-column: 4/5;
+  background-color: #ffcc02;
+}
+
+/* 可交叉, 負數表倒數 */
+/*
+.BB {
+  grid-row: 2/3;
+  grid-column: 2/-1;
+  background-color: #5bc9fb;
+  z-index: 4;
+}
+.CC {
+  grid-row: 1/-2;
+  grid-column: 3/4;
+  background-color: #4cd863;
+  z-index: 3;
+}
+*/
