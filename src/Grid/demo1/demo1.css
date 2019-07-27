@@ -1,0 +1,33 @@
+.container {
+  width: 800px;
+  height: 800px;
+  font-size: 50px;
+  color: #fff;
+  /* outline: 2px solid red; */
+
+  display: grid;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-areas:
+    " A1 A1 A1 A1 "
+    " B1 C1 C1 C1 "
+    " B1 C1 C1 C1 "
+    " D1 D1 D1 D1 ";
+}
+
+.AA {
+  grid-area: A1;
+  background-color: #037aff;
+}
+.BB {
+  grid-area: B1;
+  background-color: #5bc9fb;
+}
+.CC {
+  grid-area: C1;
+  background-color: #4cd863;
+}
+.DD {
+  grid-area: D1;
+  background-color: #ffcc02;
+}
