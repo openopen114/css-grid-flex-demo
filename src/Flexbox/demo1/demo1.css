@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  height: 500px;
+  outline: 2px solid red;
+  margin-bottom: 32px;
+
+  display: flex;
+}
+
+.container div {
+  width: 100px;
+  height: 100px;
+}
+
+.AA {
+  background-color: #037aff;
+}
+.BB {
+  background-color: #5bc9fb;
+}
+.CC {
+  background-color: #4cd863;
+}
+.DD {
+  background-color: #ffcc02;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
