@@ -11,7 +11,7 @@ import Topic from "./Topic/topic";
 // import FlexboxDemo3 from "./Flexbox/demo3/demo3";
 // import FlexboxDemo4 from "./Flexbox/demo4/demo4";
 // import FlexboxDemo5 from "./Flexbox/demo5/demo5";
-import FlexboxDemo6 from "./Flexbox/demo6/demo6";
+// import FlexboxDemo6 from "./Flexbox/demo6/demo6";
 
 import "./App.css";
 

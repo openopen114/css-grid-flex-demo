@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC|Roboto+Mono:300&display=swap");
 
+$mobile-screen-width: 600px;
+
 .bg {
   width: 100%;
   height: auto;
   background-color: #262e4a;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -13,7 +16,7 @@
   width: 75%;
   padding: 8px;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: $mobile-screen-width) {
     width: 100%;
   }
 
@@ -23,6 +26,9 @@
     height: 120px;
     font-size: 50px;
     font-family: "Montserrat", sans-serif;
+    @media screen and (max-width: $mobile-screen-width) {
+      font-size: 38px;
+    }
   }
 
   .topic {
@@ -70,7 +76,7 @@
       font-style: oblique;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: $mobile-screen-width) {
       .index {
         grid-row: 1/3;
       }
@@ -86,6 +92,13 @@
         grid-column: 2/5;
         font-size: medium;
         align-items: flex-start;
+      }
+    }
+
+    .source-link {
+      a {
+        color: #fff;
+        text-decoration: none;
       }
     }
   }
