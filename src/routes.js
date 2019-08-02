@@ -12,47 +12,49 @@ import FlexboxDemo5 from "./Flexbox/demo5/demo5";
 import FlexboxDemo6 from "./Flexbox/demo6/demo6";
 
 const rootPath = process.env.PUBLIC_URL;
+console.log("rootPath");
+console.log(rootPath);
 
 const routes = [
   {
-    path: `${rootPath}/`,
+    path: `/`,
     component: Topic,
     exact: true
   },
   {
-    path: `${rootPath}/demo/grid/1`,
+    path: `/demo/grid/1`,
     component: GridDemo1
   },
   {
-    path: `${rootPath}/demo/grid/2`,
+    path: `/demo/grid/2`,
     component: GridDemo2
   },
   {
-    path: `${rootPath}/demo/grid/3`,
+    path: `/demo/grid/3`,
     component: GridDemo3
   },
   {
-    path: `${rootPath}/demo/flex/1`,
+    path: `/demo/flex/1`,
     component: FlexboxDemo1
   },
   {
-    path: `${rootPath}/demo/flex/2`,
+    path: `/demo/flex/2`,
     component: FlexboxDemo2
   },
   {
-    path: `${rootPath}/demo/flex/3`,
+    path: `/demo/flex/3`,
     component: FlexboxDemo3
   },
   {
-    path: `${rootPath}/demo/flex/4`,
+    path: `/demo/flex/4`,
     component: FlexboxDemo4
   },
   {
-    path: `${rootPath}/demo/flex/5`,
+    path: `/demo/flex/5`,
     component: FlexboxDemo5
   },
   {
-    path: `${rootPath}/demo/flex/6`,
+    path: `/demo/flex/6`,
     component: FlexboxDemo6
   }
 ];

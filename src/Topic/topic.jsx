@@ -46,7 +46,7 @@ export default class Topic extends Component {
                   </div>
                   <div className="desc">
                     {item.desc}
-                    <ToLink to={`${rootPath}/demo/grid/${i + 1}`} text="🚀" />
+                    <ToLink to={`/demo/grid/${i + 1}`} text="🚀" />
                   </div>
                   <div className="css-attribute">{item.attribute}</div>
                 </div>
@@ -69,8 +69,7 @@ export default class Topic extends Component {
                   </div>
                   <div className="desc">
                     {item.desc}
-
-                    <ToLink to={`${rootPath}/demo/flex/${i + 1}`} text="🚀" />
+                    <ToLink to={`/demo/flex/${i + 1}`} text="🚀" />
                   </div>
                   <div className="css-attribute">{item.attribute}</div>
                 </div>
