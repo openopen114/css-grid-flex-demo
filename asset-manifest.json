@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/css-grid-flex-demo/static/css/main.12310042.chunk.css",
-    "main.js": "/css-grid-flex-demo/static/js/main.e18a279c.chunk.js",
-    "main.js.map": "/css-grid-flex-demo/static/js/main.e18a279c.chunk.js.map",
-    "runtime~main.js": "/css-grid-flex-demo/static/js/runtime~main.d09f127c.js",
-    "runtime~main.js.map": "/css-grid-flex-demo/static/js/runtime~main.d09f127c.js.map",
-    "static/js/2.b9b3bb5f.chunk.js": "/css-grid-flex-demo/static/js/2.b9b3bb5f.chunk.js",
-    "static/js/2.b9b3bb5f.chunk.js.map": "/css-grid-flex-demo/static/js/2.b9b3bb5f.chunk.js.map",
-    "index.html": "/css-grid-flex-demo/index.html",
-    "precache-manifest.5441c1999b7bb285c6bf685cfa85d829.js": "/css-grid-flex-demo/precache-manifest.5441c1999b7bb285c6bf685cfa85d829.js",
-    "service-worker.js": "/css-grid-flex-demo/service-worker.js",
-    "static/css/main.12310042.chunk.css.map": "/css-grid-flex-demo/static/css/main.12310042.chunk.css.map"
+    "main.css": "/static/css/main.12310042.chunk.css",
+    "main.js": "/static/js/main.33efa70b.chunk.js",
+    "main.js.map": "/static/js/main.33efa70b.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.b9b3bb5f.chunk.js": "/static/js/2.b9b3bb5f.chunk.js",
+    "static/js/2.b9b3bb5f.chunk.js.map": "/static/js/2.b9b3bb5f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f169e8e5fb97f1b0668f750b40865d7f.js": "/precache-manifest.f169e8e5fb97f1b0668f750b40865d7f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.12310042.chunk.css.map": "/static/css/main.12310042.chunk.css.map"
   }
 }
