@@ -1,6 +1,17 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import { rootPath } from "../routes";
 
 import "./topic.scss";
+
+const ToLink = props => {
+  const { to, text } = props;
+  return (
+    <Link className="nav-link" to={to} target="_blank">
+      {text}
+    </Link>
+  );
+};
 export default class Topic extends Component {
   gridTopicList = [
     { desc: "定義area區塊", attribute: "grid-template-areas" },
@@ -33,7 +44,10 @@ export default class Topic extends Component {
                   <div className="index">
                     <div className="index-num-box">{i + 1}</div>
                   </div>
-                  <div className="desc">{item.desc}</div>
+                  <div className="desc">
+                    {item.desc}
+                    <ToLink to={`${rootPath}/demo/grid/${i + 1}`} text="🚀" />
+                  </div>
                   <div className="css-attribute">{item.attribute}</div>
                 </div>
               );
@@ -53,7 +67,11 @@ export default class Topic extends Component {
                   <div className="index">
                     <div className="index-num-box">{i + 1}</div>
                   </div>
-                  <div className="desc">{item.desc}</div>
+                  <div className="desc">
+                    {item.desc}
+
+                    <ToLink to={`${rootPath}/demo/flex/${i + 1}`} text="🚀" />
+                  </div>
                   <div className="css-attribute">{item.attribute}</div>
                 </div>
               );
