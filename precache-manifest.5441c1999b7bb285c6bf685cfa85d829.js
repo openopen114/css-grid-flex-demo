@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa0742099186acd659472e4c014d832a",
+    "revision": "252ebf361c9196916bbb2184a6e268da",
     "url": "/css-grid-flex-demo/index.html"
   },
   {
-    "revision": "0e66460a39500f3d0cfd",
+    "revision": "b60c57da9b6bf68ed6b3",
     "url": "/css-grid-flex-demo/static/css/main.12310042.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/css-grid-flex-demo/static/js/2.b9b3bb5f.chunk.js"
   },
   {
-    "revision": "0e66460a39500f3d0cfd",
-    "url": "/css-grid-flex-demo/static/js/main.2dc2689d.chunk.js"
+    "revision": "b60c57da9b6bf68ed6b3",
+    "url": "/css-grid-flex-demo/static/js/main.e18a279c.chunk.js"
   },
   {
     "revision": "feb44bf8432e9aa128f4",
