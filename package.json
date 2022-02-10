@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://openopen114.github.io/css-grid-flex-demo/",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-config": "^5.0.1",
